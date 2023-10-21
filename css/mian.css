@@ -91,6 +91,56 @@ span > a, .galery-description{
     color: white;
 }
 .galery{
+    margin: 10px auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.galery-pics{
+    width: 30%;
+    height: 300px;
+}
+#pic1{    
+    background-image: url(../images/01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pic2{    
+    background-image: url(../images/02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pic3{    
+    background-image: url(../images/03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;}
+#pic4{    
+    background-image: url(../images/04.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;}
+#pic5{    
+    background-image: url(../images/05.png);
+    background-size: cover;
+    background-repeat: no-repeat;}
+#pic6{    
+    background-image: url(../images/06.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;}
+#pic7{    
+    background-image: url(../images/07.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;}
+#pic8{    
+    background-image: url(../images/08.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;}
+#pic9{    
+    background-image: url(../images/09.png);
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+/*.galery{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -105,7 +155,7 @@ span > a, .galery-description{
 }
 .row img{
     width: 20%;
-}
+}*/
 .galery-description{
     display: flex;
     flex-direction: column;
