@@ -95,7 +95,7 @@ span > a, .galery-description{
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 15px;
 }
 .galery-pics{
     width: 30%;
@@ -187,6 +187,9 @@ span > a, .galery-description{
     border: none;
     border-bottom: 1px solid black;
     background-color: #fbea20;
+}
+.top-form input:focus-visible, .bottom-form textarea:focus-visible{
+    outline: none;
 }
 .bottom-form{
     display: flex;
